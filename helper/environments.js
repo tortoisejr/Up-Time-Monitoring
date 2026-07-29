@@ -20,7 +20,7 @@ environments.staging = {
     twilio: {
         fromPhone: '+19166555086',
         accountSid: process.env.TWILIO_ACCOUNT_SID,
-        authToken: '01709ce045a263c1d008048c3a5ff8c7',
+        authToken: process.env.TWILIO_AUTH_TOKEN,
     },
 };
 
